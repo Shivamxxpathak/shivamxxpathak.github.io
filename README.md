@@ -14,7 +14,13 @@
 
 This repository hosts my static portfolio, designed to be fast, responsive, and clean. It provides a quick overview of my technical journey, the real-world problems I'm tackling, and my featured work.
 
-## 💻 Technical Skills
+## � Project Files
+
+- `index.html` — main portfolio page
+- `style.css` — portfolio styling and layout
+- `script.js` — interactive behavior and page enhancements
+
+## �💻 Technical Skills
 
 While this specific site is built with **HTML5, CSS3, and Vanilla JavaScript**, my broader technical expertise includes:
 
@@ -31,10 +37,9 @@ If you'd like to view the source code or run this project on your local machine:
 	git clone https://github.com/Shivamxxpathak/Portfolio.github.io.git
 	```
 
-2. Open the `portfolio/` folder and open `index.html` in your browser, or serve it locally:
+2. Open `index.html` in your browser, or serve the site locally from the repository root:
 
 	```bash
-	cd portfolio
 	python -m http.server 8000
 	# open http://localhost:8000
 	```
