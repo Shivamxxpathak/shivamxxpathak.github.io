@@ -24,9 +24,15 @@ This repository hosts my static portfolio, designed to be fast, responsive, and 
 
 While this specific site is built with **HTML5, CSS3, and Vanilla JavaScript**, my broader technical expertise includes:
 
-*   **Languages:** Python, JavaScript, [Add others like C++ or Java]
-*   **Domains:** Artificial Intelligence, Machine Learning, Data Science
-*   **Tools & Practices:** Software Development, Git/GitHub, [Add any frameworks or libraries you use, e.g., Pandas, TensorFlow, React]
+Languages: Python, SQL, HTML, CSS, JavaScript
+
+Libraries: Pandas, NumPy, Matplotlib, Seaborn
+
+Tools & Platforms: Microsoft Excel (formulas, filtering, sorting, charts), Microsoft Power BI, Google Sheets, MS Office Suite, Git, GitHub
+
+Data Management & Reporting: Data organization, validation, accuracy checking, multi-source consolidation, discrepancy resolution, Data Analysis, Data Visualization, Data Cleaning, Business report creation, KPI tracking, metric analysis, stakeholder-ready presentations
+
+Core Competencies: Artificial Intelligence (AI), Machine Learning, Data Science, Object-Oriented Programming (OOP), Prompt Engineering, DBMS/RDBMS concepts, Attention to detail, structured thinking, process improvement, problem-solving
 
 ## 🚀 Running Locally
 
@@ -44,15 +50,5 @@ If you'd like to view the source code or run this project on your local machine:
 	# open http://localhost:8000
 	```
 
-## Notes
 
-- Add a `screenshot.png` at the repository root to show a preview (used above).
-- Replace the LinkedIn URL with your real profile and update any placeholder text.
-
----
-
-If you want, I can add a Projects section, generate a `screenshot.png` mock, or add GitHub Pages deployment instructions.
----
-
-Made with care — small, fast, memorable.
 
