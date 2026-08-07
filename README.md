@@ -1,7 +1,7 @@
 
 
 
-# 👨‍💻 Shivam Pathak | Personal Portfolio
+#  Shivam Pathak | Personal Portfolio
 
 [![Live Website](https://img.shields.io/badge/Live_Site-View_Now-blue?style=for-the-badge)](https://shivamxxpathak.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/shivam-pathak-675832202)
