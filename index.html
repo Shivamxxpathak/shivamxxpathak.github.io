@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shivam Pathak | Portfolio</title>
-    <meta name="description" content="Portfolio of Shivam Pathak, B.Tech CSE student specializing in Data Management, Information Systems, and Marketing.">
+    <title>Shivam Pathak | Data Analytics & ML | Portfolio</title>
+    <meta name="description" content="Data-driven Computer Science student specializing in Python, SQL, Machine Learning, and Data Analytics. Explore projects and technical expertise.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -18,32 +18,192 @@
     
     <nav>
         <div class="nav-container">
-            <a href="#" class="logo">SP.</a>
+            <a href="#hero" class="logo">SP.</a>
+            <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
             <div class="nav-links">
                 <a href="#about">About</a>
-                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
                 <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#certifications">Certifications</a>
                 <a href="#education">Education</a>
             </div>
         </div>
     </nav>
 
     <main>
+        <!-- HERO SECTION -->
         <section id="hero" class="hero">
             <div class="hero-content">
                 <h2 class="greeting">Hi, I'm</h2>
                 <h1 class="name">Shivam Pathak</h1>
-                <h3 class="headline">B.Tech CSE | Data Management & Information Systems</h3>
+                <h3 class="headline">B.Tech Computer Science | Data Analytics | Machine Learning | Python | SQL</h3>
                 <p class="summary">
-                    Detail-oriented B.Tech CSE student with experience in data organization, workflow coordination, and business reporting. Demonstrated ability to maintain data accuracy, resolve discrepancies, and deliver structured outputs for decision-making. Seeking an MIS Internship to apply an analytical mindset toward database management, advanced Excel, and enterprise data workflows.
+                    I build data-driven solutions using Python, SQL, Pandas, NumPy, and Machine Learning. I enjoy transforming raw data into meaningful insights through analytics, visualization, and predictive models. Passionate about solving real-world problems with AI and data-driven decision-making.
                 </p>
                 <div class="contact-links">
-                    <a href="mailto:shivam987pathak@gmail.com" class="btn primary-btn"><i class="ph ph-envelope-simple"></i> Email Me</a>
-                    <a href="https://www.linkedin.com/in/shivam-pathak-675832202" target="_blank" class="btn secondary-btn"><i class="ph ph-linkedin-logo"></i> LinkedIn</a>
+                    <a href="./resume.pdf" target="_blank" rel="noopener" class="btn primary-btn download-resume"><i class="ph ph-download-simple"></i> Download Resume</a>
+                    <a href="mailto:shivam987pathak@gmail.com" class="btn secondary-btn"><i class="ph ph-envelope-simple"></i> Email Me</a>
+                    <a href="https://www.linkedin.com/in/shivam-pathak-675832202" target="_blank" rel="noopener" class="btn secondary-btn"><i class="ph ph-linkedin-logo"></i> LinkedIn</a>
+                    <a href="https://github.com/Shivamxxpathak" target="_blank" rel="noopener" class="btn secondary-btn"><i class="ph ph-github-logo"></i> GitHub</a>
                 </div>
             </div>
         </section>
 
+        <!-- ABOUT SECTION -->
+        <section id="about" class="section">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content card">
+                <p>
+                    Computer Science Engineering student with hands-on experience in Python, SQL, data analysis, and machine learning. Skilled in data cleaning, visualization, exploratory data analysis, and predictive modeling. Currently seeking internship opportunities to apply technical expertise in real-world data science and analytics projects.
+                </p>
+                <p>
+                    My journey in tech has been driven by a passion for transforming complex datasets into actionable insights. From building classification models to analyzing sales trends, I love tackling challenges that require creative problem-solving and analytical thinking.
+                </p>
+                <p>
+                    When I'm not coding or analyzing data, you can find me exploring new machine learning techniques, contributing to open-source projects, or documenting my learning journey.
+                </p>
+            </div>
+        </section>
+
+        <!-- FEATURED PROJECTS SECTION -->
+        <section id="projects" class="section">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                
+                <div class="project-card card">
+                    <div class="project-header">
+                        <h3>Drug Classification Using ML</h3>
+                        <span class="project-badge">Machine Learning</span>
+                    </div>
+                    <p class="project-desc">
+                        Built a classification model to predict drug categories based on patient attributes using supervised learning techniques. Achieved 95%+ accuracy through feature engineering and model optimization.
+                    </p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Pandas</span>
+                        <span class="tech-tag">Scikit-learn</span>
+                        <span class="tech-tag">Matplotlib</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Shivamxxpathak/Drug-Classification-Using-ML" target="_blank" rel="noopener" class="project-link"><i class="ph ph-github-logo"></i> GitHub</a>
+                        <a href="https://github.com/Shivamxxpathak/Drug-Classification-Using-ML" target="_blank" rel="noopener" class="project-link"><i class="ph ph-arrow-up-right"></i> View Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card card">
+                    <div class="project-header">
+                        <h3>SuperStore Sales Analysis</h3>
+                        <span class="project-badge">Data Analytics</span>
+                    </div>
+                    <p class="project-desc">
+                        Performed comprehensive exploratory data analysis to identify sales trends, profit drivers, and regional performance insights. Created interactive dashboards for stakeholder reporting.
+                    </p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Pandas</span>
+                        <span class="tech-tag">NumPy</span>
+                        <span class="tech-tag">Matplotlib</span>
+                        <span class="tech-tag">Excel</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Shivamxxpathak/SuperStore-Sales-Analysis" target="_blank" rel="noopener" class="project-link"><i class="ph ph-github-logo"></i> GitHub</a>
+                        <a href="https://github.com/Shivamxxpathak/SuperStore-Sales-Analysis" target="_blank" rel="noopener" class="project-link"><i class="ph ph-arrow-up-right"></i> View Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card card">
+                    <div class="project-header">
+                        <h3>Python Practice Repository</h3>
+                        <span class="project-badge">Programming</span>
+                    </div>
+                    <p class="project-desc">
+                        Comprehensive collection of Python programs covering data structures, functions, file handling, and automation tasks. Documented with examples and use cases for learning and reference.
+                    </p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">OOP</span>
+                        <span class="tech-tag">Data Structures</span>
+                        <span class="tech-tag">Automation</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Shivamxxpathak/Python-Practice-Repository" target="_blank" rel="noopener" class="project-link"><i class="ph ph-github-logo"></i> GitHub</a>
+                        <a href="https://github.com/Shivamxxpathak/Python-Practice-Repository" target="_blank" rel="noopener" class="project-link"><i class="ph ph-arrow-up-right"></i> View Project</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- GITHUB STATS SECTION -->
+        <section id="github-stats" class="section">
+            <h2 class="section-title">GitHub Activity</h2>
+            <div class="github-stats-container">
+                <div class="stat-card">
+                    <img src="https://github-readme-stats.vercel.app/api?username=shivamxxpathak&show_icons=true&theme=dark&count_private=true" alt="GitHub Stats">
+                </div>
+                <div class="stat-card">
+                    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shivamxxpathak&layout=compact&theme=dark" alt="Top Languages">
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="skills" class="section">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-container">
+                
+                <div class="skill-category card">
+                    <h3 class="skill-category-title"><i class="ph ph-code"></i> Programming</h3>
+                    <ul class="skill-list">
+                        <li>Python</li>
+                        <li>SQL</li>
+                        <li>Java</li>
+                        <li>HTML & CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category card">
+                    <h3 class="skill-category-title"><i class="ph ph-chart-bar"></i> Data Analytics</h3>
+                    <ul class="skill-list">
+                        <li>Pandas</li>
+                        <li>NumPy</li>
+                        <li>Matplotlib</li>
+                        <li>Excel (Advanced)</li>
+                        <li>Exploratory Data Analysis</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category card">
+                    <h3 class="skill-category-title"><i class="ph ph-brain"></i> Machine Learning</h3>
+                    <ul class="skill-list">
+                        <li>Scikit-learn</li>
+                        <li>Classification & Regression</li>
+                        <li>Data Preprocessing</li>
+                        <li>Model Evaluation</li>
+                        <li>Feature Engineering</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category card">
+                    <h3 class="skill-category-title"><i class="ph ph-wrench"></i> Tools & Platforms</h3>
+                    <ul class="skill-list">
+                        <li>Git & GitHub</li>
+                        <li>Google Colab</li>
+                        <li>Jupyter Notebook</li>
+                        <li>VS Code</li>
+                        <li>Microsoft Office Suite</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- EXPERIENCE SECTION -->
         <section id="experience" class="section">
             <h2 class="section-title">Experience</h2>
             <div class="timeline">
@@ -57,10 +217,10 @@
                         </div>
                         <h4 class="company">Tech Giant Society, New Delhi</h4>
                         <ul class="duties">
-                            <li>Manage organizational data workflows — tracking campaign metrics, attendance, and engagement data across concurrent projects to ensure consistent and reliable reporting.</li>
-                            <li>Produce structured business reports and dashboards for leadership decisions; uphold data integrity and accuracy across all outputs.</li>
-                            <li>Bridge technical and non-technical stakeholders by translating data insights into clear, actionable communication.</li>
-                            <li>Maintain complete organizational records spanning 1.5+ years, applying consistent validation and data quality procedures.</li>
+                            <li>Manage and analyze organizational data workflows across 1.5+ years of historical records with 98%+ accuracy.</li>
+                            <li>Produce structured business reports and dashboards enabling data-driven leadership decisions.</li>
+                            <li>Track campaign metrics, engagement data, and KPIs across concurrent projects for strategic planning.</li>
+                            <li>Bridge technical and non-technical teams through clear data visualization and communication.</li>
                         </ul>
                     </div>
                 </div>
@@ -74,10 +234,10 @@
                         </div>
                         <h4 class="company">Nexturn — The Internship Cell, India</h4>
                         <ul class="duties">
-                            <li>Collected, organized, and analyzed event data in structured spreadsheets for team decision-making and planning.</li>
-                            <li>Identified and resolved data discrepancies across multiple reports by tracing source data and applying corrective procedures.</li>
-                            <li>Created performance dashboards enabling data-driven planning for campaigns.</li>
-                            <li>Coordinated with cross-functional teams to gather requirements and ensure accurate information processing.</li>
+                            <li>Collected, organized, and analyzed event data in structured spreadsheets for team decision-making.</li>
+                            <li>Identified and resolved data discrepancies across multiple reports using systematic validation procedures.</li>
+                            <li>Created performance dashboards that improved planning efficiency and campaign targeting accuracy.</li>
+                            <li>Coordinated cross-functional data requirements and ensured accurate information processing across teams.</li>
                         </ul>
                     </div>
                 </div>
@@ -90,50 +250,62 @@
                             <span class="date">Apr 2024 – Aug 2025</span>
                         </div>
                         <h4 class="company">Tech Giant Society, New Delhi</h4>
-                        <p class="role-desc">Contributed to marketing strategies and promotional events.</p>
+                        <p class="role-desc">Contributed to marketing strategies, promotional campaigns, and event coordination initiatives.</p>
                     </div>
                 </div>
 
             </div>
         </section>
 
-        <section id="skills" class="section">
-            <h2 class="section-title">Skills & Expertise</h2>
-            <div class="skills-grid">
+        <!-- CERTIFICATIONS SECTION -->
+        <section id="certifications" class="section">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
                 
-                <div class="skill-category card">
-                    <div class="skill-icon"><i class="ph ph-database"></i></div>
-                    <h3>Data Management</h3>
-                    <p>Data organization, validation, accuracy checking, multi-source consolidation, discrepancy resolution.</p>
-                </div>
+                <a href="https://www.coursera.org/" target="_blank" rel="noopener" class="cert-link">
+                    <div class="cert-card card">
+                        <div class="cert-icon"><i class="ph ph-certificate"></i></div>
+                        <h3>IBM AI Fundamentals</h3>
+                        <p class="cert-issuer">IBM / Coursera</p>
+                    </div>
+                </a>
 
-                <div class="skill-category card">
-                    <div class="skill-icon"><i class="ph ph-wrench"></i></div>
-                    <h3>Tools & Software</h3>
-                    <p>Microsoft Excel (formulas, filtering, sorting, charts), Google Sheets, MS Office Suite, BI Tools.</p>
-                </div>
+                <a href="https://www.coursera.org/" target="_blank" rel="noopener" class="cert-link">
+                    <div class="cert-card card">
+                        <div class="cert-icon"><i class="ph ph-certificate"></i></div>
+                        <h3>IBM Data Science Professional</h3>
+                        <p class="cert-issuer">IBM / Coursera</p>
+                    </div>
+                </a>
 
-                <div class="skill-category card">
-                    <div class="skill-icon"><i class="ph ph-chart-bar"></i></div>
-                    <h3>Reporting & DB</h3>
-                    <p>Business report creation, KPI tracking, metric analysis. DBMS/RDBMS concepts, SQL fundamentals.</p>
-                </div>
+                <a href="https://www.coursera.org/" target="_blank" rel="noopener" class="cert-link">
+                    <div class="cert-card card">
+                        <div class="cert-icon"><i class="ph ph-certificate"></i></div>
+                        <h3>IBM Design Thinking</h3>
+                        <p class="cert-issuer">IBM / Coursera</p>
+                    </div>
+                </a>
 
-                <div class="skill-category card">
-                    <div class="skill-icon"><i class="ph ph-megaphone"></i></div>
-                    <h3>Marketing & Comm.</h3>
-                    <p>Marketing Strategy, Publicity, Communication, translating data insights for stakeholders.</p>
-                </div>
+                <a href="https://www.coursera.org/" target="_blank" rel="noopener" class="cert-link">
+                    <div class="cert-card card">
+                        <div class="cert-icon"><i class="ph ph-certificate"></i></div>
+                        <h3>IBM Project Management Fundamentals</h3>
+                        <p class="cert-issuer">IBM / Coursera</p>
+                    </div>
+                </a>
 
-                <div class="skill-category card">
-                    <div class="skill-icon"><i class="ph ph-brain"></i></div>
-                    <h3>Core Competencies</h3>
-                    <p>Attention to detail, structured thinking, process improvement, workflow optimization, problem-solving.</p>
-                </div>
+                <a href="https://www.coursera.org/" target="_blank" rel="noopener" class="cert-link">
+                    <div class="cert-card card">
+                        <div class="cert-icon"><i class="ph ph-certificate"></i></div>
+                        <h3>IBM Professional Skills</h3>
+                        <p class="cert-issuer">IBM / Coursera</p>
+                    </div>
+                </a>
 
             </div>
         </section>
 
+        <!-- EDUCATION SECTION -->
         <section id="education" class="section">
             <h2 class="section-title">Education</h2>
             <div class="education-list">
@@ -168,7 +340,7 @@
     </main>
 
     <footer>
-        <p>© 2026 Shivam Pathak. All rights reserved.</p>
+        <p>© 2026 Shivam Pathak. All rights reserved. | Built with HTML, CSS & JavaScript</p>
     </footer>
 
     <script src="script.js"></script>
