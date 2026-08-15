@@ -834,3 +834,9 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+
+/* v2 enhancements */
+#achievements .project-card {min-height: 220px;}
+#contact .about-content p {color: var(--text-primary);}
+.project-card {border:1px solid rgba(99,102,241,.18);}
