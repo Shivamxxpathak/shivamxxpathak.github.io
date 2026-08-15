@@ -7,13 +7,9 @@
 
 > A modern, responsive portfolio showcasing Shivam Pathak's work in **Data Analytics, Artificial Intelligence, Machine Learning, Python, SQL, and Power BI**.
 
-## 🌐 Live Preview
+## 🖥️ Portfolio Screenshot
 
-### Current Render Deployment
-
-[![Portfolio Screenshot](https://s.wordpress.com/mshots/v1/https%3A%2F%2Fshivam-pathak-portfolio.onrender.com?w=1400)](https://shivam-pathak-portfolio.onrender.com)
-
-> The preview above is generated from the current Render deployment so the README stays aligned with the live portfolio.
+![Portfolio Preview](./screenshot.png)
 
 ## 🎯 About This Portfolio
 
@@ -160,6 +156,7 @@ http://localhost:8000
 ├── style_v2.css        # Additional responsive styles
 ├── script.js            # Portfolio interactions
 ├── server.py            # Render-compatible static server
+├── screenshot.png       # Static portfolio screenshot
 ├── resume.pdf           # Resume
 └── README.md            # Project documentation
 ```
