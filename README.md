@@ -1,266 +1,193 @@
-
-
-
 # 👨‍💻 Shivam Pathak | Personal Portfolio
 
-[![Live Website](https://img.shields.io/badge/Live_Site-View_Now-6366f1?style=for-the-badge)](https://shivamxxpathak.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/shivam-pathak-675832202)
+[![Live Portfolio](https://img.shields.io/badge/Live_Portfolio-Render-46E3B7?style=for-the-badge&logo=render)](https://shivam-pathak-portfolio.onrender.com)
+[![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-Portfolio-222222?style=for-the-badge&logo=github)](https://shivamxxpathak.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/shivampathak-675832202)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/Shivamxxpathak)
 
-> A modern, responsive portfolio showcasing data science projects, machine learning expertise, and analytics capabilities. Built with clean code and professional design principles.
+> A modern, responsive portfolio showcasing Shivam Pathak's work in **Data Analytics, Artificial Intelligence, Machine Learning, Python, SQL, and Power BI**.
 
-This project has been updated with live project links, a working resume download target, and clickable certifications aligned to the portfolio checklist.
+## 🌐 Live Preview
 
-![Portfolio Preview](./screenshot.png)
+### Current Render Deployment
+
+[![Portfolio Screenshot](https://s.wordpress.com/mshots/v1/https%3A%2F%2Fshivam-pathak-portfolio.onrender.com?w=1400)](https://shivam-pathak-portfolio.onrender.com)
+
+> The preview above is generated from the current Render deployment so the README stays aligned with the live portfolio.
 
 ## 🎯 About This Portfolio
 
-This is my personal portfolio website designed to showcase my journey in **Data Science, Machine Learning, and Data Analytics**. The site features:
-
-✨ **Modern Design** — Clean, dark-themed interface with glassmorphism effects  
-🎨 **Interactive Elements** — Smooth animations and hover effects  
-📱 **Fully Responsive** — Optimized for desktop, tablet, and mobile  
-⚡ **Fast Performance** — Pure HTML, CSS, and JavaScript (no frameworks)  
-🔍 **SEO Optimized** — Structured content for better visibility
-
-## 📋 Sections Included
-
-### 1. **Hero Section**
-- Eye-catching introduction with clear value proposition
-- Quick action buttons (Resume, Email, LinkedIn, GitHub)
-- Professional headline and summary
-
-### 2. **About Section**
-- Personal introduction
-- Mission and values statement
-- Learning philosophy
-
-### 3. **Featured Projects** (Most Important!)
-- **Drug Classification Using ML** — Classification model with 95%+ accuracy
-- **SuperStore Sales Analysis** — Comprehensive EDA and insights
-- **Python Practice Repository** — Data structures and automation
-
-Project links are connected to the corresponding GitHub repositories and open in a new tab for quick review.
-
-Each project includes:
-- Project description
-- Technology stack (with visual badges)
-- GitHub link
-- Live demo link (when available)
-
-### 4. **GitHub Statistics**
-- Automatically updated GitHub stats
-- Top languages used
-- Contribution insights
-
-### 5. **Skills Section**
-Organized into categories:
-- **Programming** — Python, SQL, Java, HTML, CSS, JavaScript
-- **Data Analytics** — Pandas, NumPy, Matplotlib, Excel, EDA
-- **Machine Learning** — Scikit-learn, Classification, Regression, Model Evaluation
-- **Tools & Platforms** — Git, GitHub, Google Colab, Jupyter, VS Code
-
-### 6. **Experience Section**
-Timeline format showing:
-- Head of Marketing & Public Relations (Aug 2025 – Present)
-- Marketing Executive (Oct 2024 – Aug 2025)
-- Marketing Team Member (Apr 2024 – Aug 2025)
-
-Each position highlights data management and analytics achievements.
-
-### 7. **Certifications Section**
-- IBM AI Fundamentals
-- IBM Data Science Professional
-- IBM Design Thinking
-- IBM Project Management Fundamentals
-- IBM Professional Skills
-
-### 8. **Education Section**
-- B.Tech CSE (Expected June 2027) — IITM, Delhi
-- B.Tech CS (July 2023) — MDU
-- Standard 12th (Apr 2016 – Mar 2023) — Convent of Gagan Bharti
-
-## 💻 Technical Skills
-
-**Frontend Technologies:**
-- HTML5
-- CSS3 (with custom properties and animations)
-- Vanilla JavaScript (no frameworks)
-- Responsive design with CSS Grid and Flexbox
-
-**Featured Techniques:**
-- Intersection Observer API for scroll animations
-- Parallax effects
-- Smooth scrolling
-- Performance monitoring
-- Mobile-first design
-
-**Tools & Platforms:**
-- Git & GitHub
-- VS Code
-- Google Colab
-- Jupyter Notebook
-
-## 🎨 Design Features
-
-### Visual Effects
-- **Animated blobs** — Floating background elements
-- **Smooth transitions** — All interactive elements have smooth animations
-- **Hover effects** — Cards and buttons respond to user interaction
-- **Gradient text** — Eye-catching section titles
-- **Glassmorphism** — Modern card design with blur effects
-- **Scroll animations** — Sections fade in as you scroll
-
-### Responsive Breakpoints
-- Desktop: Full experience with all features
-- Tablet (768px): Optimized layout and touch-friendly buttons
-- Mobile (480px): Single column layout, simplified navigation
-
-### Accessibility
-- Semantic HTML
-- Proper contrast ratios
-- Keyboard navigation support
-- ARIA labels where needed
-
-## 🚀 Setup & Deployment
-
-### Running Locally
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/Shivamxxpathak/Portfolio.github.io.git
-   cd Portfolio
-   ```
-
-2. **Method 1: Using Python's built-in server**
-   ```bash
-   python -m http.server 8000
-   # Then open http://localhost:8000 in your browser
-   ```
-
-3. **Method 2: Using Node.js**
-   ```bash
-   npx http-server
-   # Server will run on http://localhost:8080
-   ```
-
-4. **Method 3: Direct browser access**
-   - Simply open `index.html` in your browser
-
-### Deploying to GitHub Pages
-
-1. Push your code to GitHub:
-   ```bash
-   git add .
-   git commit -m "Update portfolio"
-   git push origin main
-   ```
-
-2. Enable GitHub Pages in repository settings:
-   - Go to Settings → Pages
-   - Select "Deploy from a branch"
-   - Choose `main` branch and save
-
-3. Your site will be live at `https://yourusername.github.io`
-
-## 🔧 Customization Guide
-
-### Update Personal Information
-Edit `index.html`:
-```html
-<!-- Update your name -->
-<h1 class="name">Your Name</h1>
-
-<!-- Update your headline -->
-<h3 class="headline">Your Headline</h3>
-
-<!-- Update contact links -->
-<a href="mailto:your.email@example.com">Email Me</a>
-```
-
-### Modify Colors
-Edit `style.css` (`:root` section):
-```css
-:root {
-    --accent-color: #6366f1; /* Change accent color */
-    --bg-color: #050505;     /* Change background */
-    /* ... other variables ... */
-}
-```
-
-### Add/Update Projects
-Add new project cards in the `#projects` section:
-```html
-<div class="project-card card">
-    <div class="project-header">
-        <h3>Your Project Name</h3>
-        <span class="project-badge">Category</span>
-    </div>
-    <!-- ... rest of project details ... -->
-</div>
-```
-
-### Update GitHub Stats
-Replace username in `#github-stats` section:
-```html
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=dark">
-```
-
-### Add Resume Download
-1. Upload your resume PDF to your repository
-2. Update the resume link in hero section:
-```html
-<a href="path/to/your-resume.pdf" class="btn primary-btn download-resume">
-    <i class="ph ph-download-simple"></i> Download Resume
-</a>
-```
-
-## 📊 SEO Optimization
+This is my personal portfolio website designed to showcase my journey in **Data Analytics, Machine Learning, Artificial Intelligence, and Data Science**.
 
 The portfolio includes:
-- ✅ Relevant keywords naturally integrated
-- ✅ Meta descriptions for search engines
-- ✅ Semantic HTML structure
-- ✅ Mobile-friendly design (important for Google ranking)
-- ✅ Fast loading times
-- ✅ Proper heading hierarchy
-- ✅ Alt text for images (when used)
 
-**Keywords included:** Data Analytics, Machine Learning, Python, SQL, Data Visualization, Exploratory Data Analysis, Predictive Modeling, Scikit-learn, Pandas, NumPy, Data Science
+- ✨ Modern dark-themed responsive interface
+- 📊 Data analytics and machine learning projects
+- 🧠 AI/ML skills and practical work
+- 💼 Professional experience and leadership roles
+- 🏆 IBM certifications
+- 🎓 Education timeline
+- 🐙 Real GitHub repositories and activity
+- 📄 Resume download
+- 📬 Direct contact and social links
 
-## 🎬 Key Features
+## 📋 Portfolio Sections
 
-### Performance
-- ⚡ No external frameworks (vanilla JS only)
-- 📦 Minimal dependencies (only Phosphor Icons from CDN)
-- 🚀 Fast load times
-- ♿ Accessibility-first design
+### 1. Hero Section
+- Professional headline and summary
+- Resume download
+- Email, LinkedIn, and GitHub links
 
-### User Experience
-- 🎯 Clear visual hierarchy
-- 📍 Sticky navigation
-- 🖱️ Intuitive interactions
-- 📱 Mobile optimization
-- ♿ Keyboard navigable
+### 2. About
+- Computer Science Engineering background
+- Data analytics and AI/ML focus
+- Internship-oriented professional summary
 
-### Recruiter-Friendly
-- 🎯 Clear value proposition
-- 📊 Featured projects section
-- 💼 Achievement-oriented experience descriptions
-- 🏆 Certifications showcase
-- 📈 GitHub stats integration
+### 3. Featured Projects
 
-## 📞 Contact & Social
+- **Drug Classification Using Machine Learning** — supervised classification model with 95%+ accuracy
+- **SuperStore Sales Analysis** — sales trends, profit drivers, and regional analysis
+- **AI-Based Data Analysis Projects** — Python data cleaning, EDA, and visualization
+- **Python Practice Repository** — programming and data-analysis practice
+
+### 4. GitHub Activity
+
+The portfolio uses a native repository/activity section rather than external GitHub-stat image generators. It highlights the public repositories and publicly verifiable GitHub information available on the profile.
+
+### 5. Skills
+
+**Programming**
+- Python
+- SQL
+- Java
+- HTML/CSS
+- JavaScript
+- OOP
+
+**Data & Business Intelligence**
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Excel
+- Power BI
+- Google Sheets
+- Data Cleaning
+- Data Visualization
+- Dashboard Development
+- KPI Tracking
+- Business Reporting
+
+**AI & Machine Learning**
+- Artificial Intelligence
+- Machine Learning
+- Scikit-learn
+- Classification
+- Regression
+- Data Preprocessing
+- Feature Engineering
+- Model Evaluation
+- Prompt Engineering
+
+**Tools & Databases**
+- Git & GitHub
+- DBMS/RDBMS
+- Google Colab
+- Jupyter Notebook
+- VS Code
+- MS Office
+
+### 6. Experience
+
+- **Head of Marketing & Public Relations** — Tech Giant Society, New Delhi
+- **Marketing Executive** — Nexturn — The Internship Cell
+- **Marketing Team Member** — Tech Giant Society, New Delhi
+
+Experience descriptions emphasize data management, reporting, dashboards, KPI tracking, validation, coordination, and stakeholder communication.
+
+### 7. Certifications
+
+- IBM Artificial Intelligence Fundamentals
+- Getting Started with Artificial Intelligence
+- IBM Data Science
+- IBM Design Thinking
+- IBM Project Management Fundamentals
+
+Certification cards on the portfolio are intentionally **non-clickable** unless a verified certificate/badge URL is available.
+
+### 8. Education
+
+- **B.Tech — Computer Science & Engineering** — Indraprastha Institute of Technology and Management (IITM), Delhi — 2023–2027
+- **Foundation Year** — Maharshi Dayanand University (MDU) — Jul 2023
+- **Class XII** — Convent of Gagan Bharti
+
+## 💻 Technology Stack
+
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- CSS Grid & Flexbox
+- Phosphor Icons
+- Python static server for Render deployment
+
+## 🚀 Deployment
+
+The portfolio is deployed on **Render** from the `main` branch of this repository.
+
+**Render URL:** https://shivam-pathak-portfolio.onrender.com
+
+Render automatically redeploys the portfolio whenever changes are pushed to `main`.
+
+### Run Locally
+
+```bash
+git clone https://github.com/Shivamxxpathak/shivamxxpathak.github.io.git
+cd shivamxxpathak.github.io
+python -m http.server 8000
+```
+
+Then open:
+
+```text
+http://localhost:8000
+```
+
+## 📁 Main Files
+
+```text
+├── index.html          # Portfolio page
+├── style.css           # Main portfolio styles
+├── style_v2.css        # Additional responsive styles
+├── script.js            # Portfolio interactions
+├── server.py            # Render-compatible static server
+├── resume.pdf           # Resume
+└── README.md            # Project documentation
+```
+
+## 📊 SEO & Accessibility
+
+The portfolio includes:
+
+- Semantic HTML structure
+- Meta description and relevant keywords
+- Responsive mobile layout
+- Descriptive image alt text where applicable
+- Keyboard-friendly navigation
+- Accessible navigation controls
+- Recruiter-focused content structure
+
+## 📞 Contact
 
 - **Email:** shivam987pathak@gmail.com
-- **LinkedIn:** [Shivam Pathak](https://www.linkedin.com/in/shivam-pathak-675832202)
-- **GitHub:** [Shivamxxpathak](https://github.com/Shivamxxpathak)
+- **LinkedIn:** https://www.linkedin.com/in/shivampathak-675832202
+- **GitHub:** https://github.com/Shivamxxpathak
+- **Portfolio:** https://shivam-pathak-portfolio.onrender.com
 
 ## 📝 License
 
-This portfolio is open source. Feel free to use it as a template for your own portfolio!
+This portfolio is open source. Feel free to use it as inspiration for your own portfolio.
 
 ---
 
-**Last Updated:** 2026  
-**Built with:** ❤️ using HTML5, CSS3, and JavaScript
+**Last Updated:** August 2026  
+**Built with:** HTML5, CSS3, JavaScript, and Render
