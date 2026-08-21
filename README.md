@@ -9,7 +9,7 @@
 
 ## 🖥️ Portfolio Screenshot
 
-![Portfolio Preview](./screenshot.png)
+![Portfolio Preview](./screenshot-portfolio.png)
 
 ## 🎯 About This Portfolio
 
@@ -151,14 +151,15 @@ http://localhost:8000
 ## 📁 Main Files
 
 ```text
-├── index.html          # Portfolio page
-├── style.css           # Main portfolio styles
-├── style_v2.css        # Additional responsive styles
-├── script.js            # Portfolio interactions
-├── server.py            # Render-compatible static server
-├── screenshot.png       # Static portfolio screenshot
-├── resume.pdf           # Resume
-└── README.md            # Project documentation
+├── index.html              # Portfolio page
+├── style.css               # Main portfolio styles
+├── style_v2.css            # Additional responsive styles
+├── script.js               # Portfolio interactions
+├── server.py               # Render-compatible static server
+├── screenshot.png          # Existing portfolio screenshot
+├── screenshot-portfolio.png # Portfolio preview added to README
+├── resume.pdf              # Resume
+└── README.md               # Project documentation
 ```
 
 ## 📊 SEO & Accessibility
