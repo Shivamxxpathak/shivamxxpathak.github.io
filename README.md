@@ -7,9 +7,11 @@
 
 > A modern, responsive portfolio showcasing Shivam Pathak's work in **Data Analytics, Artificial Intelligence, Machine Learning, Python, SQL, and Power BI**.
 
-## 🖥️ Portfolio Screenshot
+## 🖥️ Portfolio Preview
 
-![Portfolio Preview](./screenshot-portfolio.png)
+<p align="center">
+  <img src="./Screenshot%202026-08-20%20002715.png" alt="Shivam Pathak Portfolio Preview" width="100%">
+</p>
 
 ## 🎯 About This Portfolio
 
@@ -151,15 +153,14 @@ http://localhost:8000
 ## 📁 Main Files
 
 ```text
-├── index.html              # Portfolio page
-├── style.css               # Main portfolio styles
-├── style_v2.css            # Additional responsive styles
-├── script.js               # Portfolio interactions
-├── server.py               # Render-compatible static server
-├── screenshot.png          # Existing portfolio screenshot
-├── screenshot-portfolio.png # Portfolio preview added to README
-├── resume.pdf              # Resume
-└── README.md               # Project documentation
+├── index.html
+├── style.css
+├── style_v2.css
+├── script.js
+├── server.py
+├── Screenshot 2026-08-20 002715.png  # Portfolio preview
+├── resume.pdf
+└── README.md
 ```
 
 ## 📊 SEO & Accessibility
