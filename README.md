@@ -1,68 +1,79 @@
 # 👨‍💻 Shivam Pathak | Personal Portfolio
 
-[![Live Portfolio](https://img.shields.io/badge/Live_Portfolio-Render-46E3B7?style=for-the-badge&logo=render)](https://shivam-pathak-portfolio.onrender.com)
-[![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-Portfolio-222222?style=for-the-badge&logo=github)](https://shivamxxpathak.github.io)
+[![Live Portfolio](https://img.shields.io/badge/Live_Portfolio-GitHub%20Pages-222222?style=for-the-badge&logo=github)](https://shivamxxpathak.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/shivampathak-675832202)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/Shivamxxpathak)
 
-> A modern, responsive portfolio showcasing Shivam Pathak's work in **Data Analytics, Artificial Intelligence, Machine Learning, Python, SQL, and Power BI**.
+> A responsive developer portfolio showcasing Shivam Pathak's work in **Data Analytics, Artificial Intelligence, Machine Learning, Python, SQL, Excel, and Power BI**.
 
-## 🖥️ Portfolio Preview
+## 🌐 Live Portfolio
 
-<p align="center">
-  <img src="./Screenshot%202026-08-20%20002715.png" alt="Shivam Pathak Portfolio Preview" width="100%">
-</p>
+**GitHub Pages:** https://shivamxxpathak.github.io
 
-## 🎯 About This Portfolio
+## 🎯 Portfolio Focus
 
-This is my personal portfolio website designed to showcase my journey in **Data Analytics, Machine Learning, Artificial Intelligence, and Data Science**.
+The portfolio is positioned around practical **data analytics and machine learning** work, supported by professional reporting, dashboard, leadership, and stakeholder-communication experience.
 
-The portfolio includes:
+It includes:
 
-- ✨ Modern dark-themed responsive interface
-- 📊 Data analytics and machine learning projects
+- 📊 Data analytics projects
+- 🤖 Supervised machine learning projects
 - 🧠 AI/ML skills and practical work
-- 💼 Professional experience and leadership roles
-- 🏆 IBM certifications
-- 🎓 Education timeline
-- 🐙 Real GitHub repositories and activity
+- 💼 Professional experience and leadership
+- 🏆 Certifications
+- 🎓 Education
+- 🐙 Dedicated GitHub repositories
 - 📄 Resume download
 - 📬 Direct contact and social links
 
-## 📋 Portfolio Sections
+## 🚀 Featured Projects
 
-### 1. Hero Section
-- Professional headline and summary
-- Resume download
-- Email, LinkedIn, and GitHub links
+### 1. Customer Churn Prediction & Retention Analytics ⭐
 
-### 2. About
-- Computer Science Engineering background
-- Data analytics and AI/ML focus
-- Internship-oriented professional summary
+End-to-end telecom churn prediction project designed as a portfolio-quality ML workflow.
 
-### 3. Featured Projects
+**Highlights:**
+- Leakage-aware preprocessing with `Pipeline` and `ColumnTransformer`
+- Numeric imputation and scaling
+- Categorical encoding with `OneHotEncoder`
+- Logistic Regression, KNN, Naive Bayes, Decision Tree, Random Forest, SVM, AdaBoost, and Gradient Boosting
+- Soft Voting Ensemble
+- Stratified 5-fold cross-validation
+- Accuracy, Precision, Recall, F1-score, and ROC-AUC
+- Churn probability and High/Medium/Low risk segmentation
+- Joblib model persistence
+- Streamlit prediction application
 
-- **Drug Classification Using Machine Learning** — supervised classification model with 95%+ accuracy
-- **SuperStore Sales Analysis** — sales trends, profit drivers, and regional analysis
-- **AI-Based Data Analysis Projects** — Python data cleaning, EDA, and visualization
-- **Python Practice Repository** — programming and data-analysis practice
+**Repository:** https://github.com/Shivamxxpathak/Customer-Churn-Prediction
 
-### 4. GitHub Activity
+### 2. SuperStore Data Analytics
 
-The portfolio uses a native repository/activity section rather than external GitHub-stat image generators. It highlights the public repositories and publicly verifiable GitHub information available on the profile.
+End-to-end retail analytics project covering sales, profit, profitability drivers, discount impact, products, regions, trends, and executive KPIs.
 
-### 5. Skills
+**Repository:** https://github.com/Shivamxxpathak/SuperStore-Data-Analytics
 
-**Programming**
+### 3. Drug Classification Using ML
+
+Supervised classification work covering preprocessing, feature engineering, model training, and evaluation.
+
+**Repository:** https://github.com/Shivamxxpathak/Colab-work
+
+### 4. Home Prediction App
+
+Python-based machine learning application work focused on predictive modeling and practical implementation.
+
+**Repository:** https://github.com/Shivamxxpathak/Home-Prediction-app
+
+## 🧰 Technology Stack
+
+### Programming
 - Python
 - SQL
 - Java
 - HTML/CSS
 - JavaScript
-- OOP
 
-**Data & Business Intelligence**
+### Data & BI
 - Pandas
 - NumPy
 - Matplotlib
@@ -76,67 +87,59 @@ The portfolio uses a native repository/activity section rather than external Git
 - KPI Tracking
 - Business Reporting
 
-**AI & Machine Learning**
-- Artificial Intelligence
-- Machine Learning
+### AI & Machine Learning
 - Scikit-learn
 - Classification
 - Regression
 - Data Preprocessing
 - Feature Engineering
 - Model Evaluation
+- Streamlit
 - Prompt Engineering
 
-**Tools & Databases**
+### Tools
 - Git & GitHub
-- DBMS/RDBMS
 - Google Colab
 - Jupyter Notebook
 - VS Code
+- DBMS/RDBMS
 - MS Office
 
-### 6. Experience
+## 💼 Experience
 
 - **Head of Marketing & Public Relations** — Tech Giant Society, New Delhi
 - **Marketing Executive** — Nexturn — The Internship Cell
 - **Marketing Team Member** — Tech Giant Society, New Delhi
 
-Experience descriptions emphasize data management, reporting, dashboards, KPI tracking, validation, coordination, and stakeholder communication.
+The portfolio emphasizes data management, reporting, dashboards, KPI tracking, validation, coordination, and stakeholder communication across these roles.
 
-### 7. Certifications
-
-- IBM Artificial Intelligence Fundamentals
-- Getting Started with Artificial Intelligence
-- IBM Data Science
-- IBM Design Thinking
-- IBM Project Management Fundamentals
-
-Certification cards on the portfolio are intentionally **non-clickable** unless a verified certificate/badge URL is available.
-
-### 8. Education
+## 🎓 Education
 
 - **B.Tech — Computer Science & Engineering** — Indraprastha Institute of Technology and Management (IITM), Delhi — 2023–2027
 - **Foundation Year** — Maharshi Dayanand University (MDU) — Jul 2023
-- **Class XII** — Convent of Gagan Bharti
+- **Class XII — CBSE** — Government Boys Senior Secondary School — 2023
 
-## 💻 Technology Stack
+## 🏆 Certifications
+
+- IBM AI Fundamentals
+- IBM Data Science
+- IBM Design Thinking
+- IBM Project Management Fundamentals
+- IBM Professional Skills
+
+## 💻 Portfolio Implementation
+
+The website is built with:
 
 - HTML5
 - CSS3
 - Vanilla JavaScript
 - CSS Grid & Flexbox
 - Phosphor Icons
-- Python static server for Render deployment
+- Responsive design
+- GitHub Pages
 
-## 🚀 Deployment
-
-The portfolio is deployed on **Render** from the `main` branch of this repository.
-
-**Render URL:** https://shivam-pathak-portfolio.onrender.com
-
-Render automatically redeploys the portfolio whenever changes are pushed to `main`.
-
-### Run Locally
+## 🚀 Run Locally
 
 ```bash
 git clone https://github.com/Shivamxxpathak/shivamxxpathak.github.io.git
@@ -144,13 +147,13 @@ cd shivamxxpathak.github.io
 python -m http.server 8000
 ```
 
-Then open:
+Open:
 
 ```text
 http://localhost:8000
 ```
 
-## 📁 Main Files
+## 📁 Repository Structure
 
 ```text
 ├── index.html
@@ -158,35 +161,31 @@ http://localhost:8000
 ├── style_v2.css
 ├── script.js
 ├── server.py
-├── Screenshot 2026-08-20 002715.png  # Portfolio preview
 ├── resume.pdf
+├── Screenshot 2026-08-20 002715.png
+├── projects/
+├── assets/
 └── README.md
 ```
 
-## 📊 SEO & Accessibility
+## 📈 Portfolio Positioning
 
-The portfolio includes:
+The current portfolio prioritizes **Data Analytics + Machine Learning** and highlights projects that demonstrate complete workflows rather than isolated algorithm exercises.
 
-- Semantic HTML structure
-- Meta description and relevant keywords
-- Responsive mobile layout
-- Descriptive image alt text where applicable
-- Keyboard-friendly navigation
-- Accessible navigation controls
-- Recruiter-focused content structure
+The Customer Churn Prediction project is the primary ML showcase, while SuperStore Data Analytics demonstrates business-oriented analysis.
 
 ## 📞 Contact
 
 - **Email:** shivam987pathak@gmail.com
 - **LinkedIn:** https://www.linkedin.com/in/shivampathak-675832202
 - **GitHub:** https://github.com/Shivamxxpathak
-- **Portfolio:** https://shivam-pathak-portfolio.onrender.com
+- **Portfolio:** https://shivamxxpathak.github.io
 
 ## 📝 License
 
-This portfolio is open source. Feel free to use it as inspiration for your own portfolio.
+This portfolio is open source and may be used as inspiration for personal portfolio projects.
 
 ---
 
 **Last Updated:** August 2026  
-**Built with:** HTML5, CSS3, JavaScript, and Render
+**Built with:** HTML5, CSS3, JavaScript, and GitHub Pages
