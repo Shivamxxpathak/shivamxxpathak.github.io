@@ -47,6 +47,20 @@ document.addEventListener('DOMContentLoaded', () => {
     const max = document.documentElement.scrollHeight - innerHeight;
     progress.style.width = max > 0 ? (scrollY / max * 100) + '%' : '0%';
   });
+
+  // Add live demo links to the deployed Customer Churn project.
+  const churnRepo = 'https://github.com/Shivamxxpathak/Customer-Churn-Prediction';
+  const churnDemo = 'https://customer-churn-prediction-1nnj.onrender.com';
+  const churnLinks = document.querySelectorAll(`a[href="${churnRepo}"]`);
+  churnLinks.forEach(link => {
+    const container = link.parentElement;
+    if (!container || container.querySelector('.live-demo-link')) return;
+    const demo = link.cloneNode(true);
+    demo.href = churnDemo;
+    demo.classList.add('live-demo-link');
+    demo.innerHTML = '<i class="ph ph-play-circle"></i> Live Demo';
+    container.appendChild(demo);
+  });
 });
 
 const style = document.createElement('style');
