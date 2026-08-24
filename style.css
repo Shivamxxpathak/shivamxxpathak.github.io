@@ -13,14 +13,95 @@
 .contact-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem}
 .contact-grid a,.contact-grid>span{display:flex;align-items:center;justify-content:center;gap:.5rem;color:var(--text-secondary);text-decoration:none;padding:.9rem;border:1px solid var(--card-border);border-radius:10px;transition:.3s}
 .contact-grid a:hover{color:var(--text-primary);border-color:var(--accent-color);transform:translateY(-2px)}
-
-/* Featured Projects → GitHub Activity spacing */
 #projects{padding-bottom:2rem}
 #github-stats{padding-top:2rem}
 
-@media(max-width:900px){.highlights-grid{grid-template-columns:repeat(2,1fr)}.contact-grid{grid-template-columns:repeat(2,1fr)}.nav-links{gap:1rem}}
-@media(max-width:700px){.mobile-menu-toggle{display:flex}.nav-links{display:none;position:absolute;top:100%;left:0;right:0;padding:1rem 2rem;flex-direction:column;background:rgba(5,5,5,.98);border-bottom:1px solid var(--card-border)}.nav-links.active{display:flex}.name{font-size:3.4rem}.headline{font-size:1.35rem}.summary{font-size:1rem}.hero{min-height:100vh;height:auto;padding-top:120px;padding-bottom:70px}.contact-grid{grid-template-columns:1fr}.highlights-grid{grid-template-columns:1fr 1fr}.section{padding:4rem 0}
-#projects{padding-bottom:2rem}
-#github-stats{padding-top:2rem}
+/* ===== Portfolio visual refresh ===== */
+:root{
+  --accent-color:#7c3aed;
+  --accent-hover:#6d28d9;
+  --accent-blue:#38bdf8;
+  --accent-green:#34d399;
+  --card-bg:rgba(255,255,255,.045);
+  --card-border:rgba(255,255,255,.10);
+  --glow:rgba(124,58,237,.24);
 }
-@media(max-width:480px){.nav-container,main{padding-left:1rem;padding-right:1rem}.name{font-size:2.8rem}.highlights-grid{grid-template-columns:1fr}.contact-links{flex-direction:column}.btn{justify-content:center;width:100%}}
+body{
+  background:
+    radial-gradient(circle at 12% 8%,rgba(56,189,248,.10),transparent 24rem),
+    radial-gradient(circle at 88% 22%,rgba(124,58,237,.12),transparent 28rem),
+    #050507;
+}
+body::before{
+  content:'';position:fixed;inset:0;pointer-events:none;z-index:-2;opacity:.18;
+  background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);
+  background-size:42px 42px;
+  mask-image:linear-gradient(to bottom,black,transparent 72%);
+}
+.blob{filter:blur(120px);opacity:.28}
+nav{background:rgba(5,5,7,.78);border-bottom:1px solid rgba(255,255,255,.07);box-shadow:0 8px 35px rgba(0,0,0,.22)}
+.nav-container{max-width:1180px}
+.logo{font-size:1.7rem;color:#fff}
+.logo::after{content:' / DATA + AI';font-size:.55rem;letter-spacing:.12em;color:var(--text-secondary);margin-left:.55rem;vertical-align:middle}
+.nav-links{gap:1.55rem}
+.nav-links a{font-size:.82rem;letter-spacing:.02em}
+main{max-width:1180px}
+.hero{min-height:92vh;height:auto;position:relative;overflow:visible}
+.hero::after{
+  content:'DATA  →  MODEL  →  INSIGHT';
+  position:absolute;right:0;top:38%;font:600 .72rem/1.2 monospace;letter-spacing:.22em;color:rgba(255,255,255,.28);transform:rotate(90deg);transform-origin:right top;pointer-events:none
+}
+.hero-content{max-width:850px;padding:5rem 0 3rem;position:relative}
+.hero-content::before{
+  content:'';position:absolute;width:210px;height:210px;right:-170px;top:15%;border:1px solid rgba(56,189,248,.25);border-radius:50%;box-shadow:0 0 70px rgba(56,189,248,.10),inset 0 0 50px rgba(124,58,237,.08);animation:orbitPulse 5s ease-in-out infinite
+}
+.hero-content::after{
+  content:'01  /  PYTHON\A 02  /  ML\A 03  /  DATA';white-space:pre;position:absolute;right:-125px;top:31%;font:600 .68rem/2.1 monospace;letter-spacing:.1em;color:rgba(255,255,255,.35)
+}
+@keyframes orbitPulse{50%{transform:scale(1.08);opacity:.65}100%{transform:scale(1);opacity:1}}
+.eyebrow{display:inline-flex;align-items:center;gap:.55rem;color:var(--accent-blue);font-size:.78rem;letter-spacing:.16em;border:1px solid rgba(56,189,248,.20);background:rgba(56,189,248,.05);padding:.45rem .75rem;border-radius:999px}
+.eyebrow::before{content:'';width:7px;height:7px;border-radius:50%;background:var(--accent-green);box-shadow:0 0 12px var(--accent-green)}
+.name{font-size:clamp(3.7rem,8vw,6.7rem);letter-spacing:-.065em;line-height:.95;background:linear-gradient(110deg,#fff 15%,#c4b5fd 48%,#67e8f9 92%);-webkit-background-clip:text;background-clip:text}
+.headline{font-size:clamp(1.35rem,2.5vw,2rem);color:#d4d4d8;max-width:760px}
+.summary{font-size:1rem;max-width:720px;color:#a1a1aa;line-height:1.9}
+.btn{border-radius:999px;padding:.82rem 1.25rem}
+.primary-btn{background:linear-gradient(135deg,#fff,#e9e7ff);box-shadow:0 8px 28px rgba(124,58,237,.16)}
+.secondary-btn{background:rgba(255,255,255,.025)}
+.section{padding:5.25rem 0}
+.section-title{font-size:clamp(2rem,4vw,3rem);margin-bottom:2rem;letter-spacing:-.045em;background:linear-gradient(110deg,#fff,#a78bfa 55%,#67e8f9);-webkit-background-clip:text;background-clip:text}
+.section-title::before{content:'// ';font-family:monospace;color:var(--accent-blue);font-size:.55em;vertical-align:middle}
+.card{background:linear-gradient(145deg,rgba(255,255,255,.055),rgba(255,255,255,.018));border:1px solid rgba(255,255,255,.09);border-radius:20px;box-shadow:0 18px 60px rgba(0,0,0,.16);backdrop-filter:blur(14px)}
+.card:hover{transform:translateY(-7px);border-color:rgba(167,139,250,.32);box-shadow:0 24px 70px rgba(0,0,0,.28),0 0 35px rgba(124,58,237,.10)}
+#projects .projects-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:1.25rem}
+#projects .project-card:first-child{grid-column:span 2;min-height:290px;background:linear-gradient(135deg,rgba(124,58,237,.12),rgba(56,189,248,.045) 55%,rgba(255,255,255,.025));border-color:rgba(167,139,250,.25)}
+#projects .project-card:first-child::after{content:'LIVE ML APP';position:absolute;right:1.5rem;bottom:1.5rem;font:700 .62rem/1 monospace;letter-spacing:.15em;color:rgba(103,232,249,.7);padding:.55rem .7rem;border:1px solid rgba(103,232,249,.18);border-radius:999px;background:rgba(103,232,249,.04)}
+.project-header h3{font-size:1.25rem;letter-spacing:-.02em}
+#projects .project-card:first-child .project-header h3{font-size:1.55rem}
+.project-badge{background:rgba(124,58,237,.12);color:#c4b5fd;border-color:rgba(167,139,250,.22)}
+.tech-tag{background:rgba(52,211,153,.07);color:#6ee7b7;border-color:rgba(52,211,153,.16)}
+.project-link{border-radius:999px;background:rgba(124,58,237,.10);color:#c4b5fd;border-color:rgba(167,139,250,.18)}
+.project-link:hover{background:linear-gradient(135deg,#7c3aed,#38bdf8);color:#fff}
+.highlights-grid{gap:1rem}
+.highlight-card{padding:1.35rem}
+.highlight-card strong{font-size:1.75rem;background:linear-gradient(110deg,#fff,#a78bfa);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.skills-container{gap:1.25rem}
+.skill-category{padding:1.6rem}
+.skill-category-title{color:#c4b5fd}
+.skill-list li::before{color:var(--accent-blue)}
+.timeline::before{background:linear-gradient(180deg,#7c3aed,#38bdf8,transparent)}
+.timeline-dot{box-shadow:0 0 0 5px rgba(124,58,237,.12),0 0 18px rgba(124,58,237,.45)}
+#github-stats .github-repositories{gap:1rem}
+#github-stats .project-card{padding:1.5rem}
+#contact .contact-content{text-align:center;background:linear-gradient(135deg,rgba(124,58,237,.10),rgba(56,189,248,.05),rgba(255,255,255,.025))}
+footer{border-top:1px solid rgba(255,255,255,.07)}
+
+@media(max-width:900px){
+  .highlights-grid{grid-template-columns:repeat(2,1fr)}
+  .contact-grid{grid-template-columns:repeat(2,1fr)}
+  .nav-links{gap:1rem}
+  .hero-content::before,.hero-content::after,.hero::after{display:none}
+}
+@media(max-width:700px){
+  .mobile-menu-toggle{display:flex}.nav-links{display:none;position:absolute;top:100%;left:0;right:0;padding:1rem 2rem;flex-direction:column;background:rgba(5,5,7,.98);border-bottom:1px solid var(--card-border)}.nav-links.active{display:flex}.logo::after{display:none}.name{font-size:3.6rem}.headline{font-size:1.3rem}.summary{font-size:1rem}.hero{min-height:auto;height:auto;padding-top:95px;padding-bottom:45px}.hero-content{padding:3.5rem 0 1rem}.contact-grid{grid-template-columns:1fr}.highlights-grid{grid-template-columns:1fr 1fr}.section{padding:4rem 0}#projects{padding-bottom:1.5rem}#github-stats{padding-top:1.5rem}#projects .projects-grid{grid-template-columns:1fr}#projects .project-card:first-child{grid-column:auto;min-height:0}#projects .project-card:first-child::after{display:none}
+}
+@media(max-width:480px){.nav-container,main{padding-left:1rem;padding-right:1rem}.name{font-size:2.9rem}.highlights-grid{grid-template-columns:1fr}.contact-links{flex-direction:column}.btn{justify-content:center;width:100%}.section-title{margin-bottom:1.5rem}}
