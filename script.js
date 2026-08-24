@@ -73,6 +73,15 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }, {rootMargin:'-35% 0px -55% 0px', threshold:0});
   navTargets.forEach(({section}) => navObserver.observe(section));
+
+  // Load final layout fixes after the main stylesheet.
+  if (!document.querySelector('link[data-layout-fixes]')) {
+    const fixes = document.createElement('link');
+    fixes.rel = 'stylesheet';
+    fixes.href = './layout-fixes.css?v=2';
+    fixes.dataset.layoutFixes = 'true';
+    document.head.appendChild(fixes);
+  }
 });
 
 const style = document.createElement('style');
