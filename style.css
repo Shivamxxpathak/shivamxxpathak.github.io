@@ -69,7 +69,7 @@ main{max-width:1180px}
 .secondary-btn{background:rgba(255,255,255,.025)}
 .section{padding:5.25rem 0}
 .section-title{font-size:clamp(2rem,4vw,3rem);margin-bottom:2rem;letter-spacing:-.045em;background:linear-gradient(110deg,#fff,#a78bfa 55%,#67e8f9);-webkit-background-clip:text;background-clip:text}
-.section-title::before{content:'// ';font-family:monospace;color:var(--accent-blue);font-size:.55em;vertical-align:middle}
+.section-title::before{content:'';font-family:monospace;color:var(--accent-blue);font-size:.55em;vertical-align:middle}
 .card{background:linear-gradient(145deg,rgba(255,255,255,.055),rgba(255,255,255,.018));border:1px solid rgba(255,255,255,.09);border-radius:20px;box-shadow:0 18px 60px rgba(0,0,0,.16);backdrop-filter:blur(14px)}
 .card:hover{transform:translateY(-7px);border-color:rgba(167,139,250,.32);box-shadow:0 24px 70px rgba(0,0,0,.28),0 0 35px rgba(124,58,237,.10)}
 #projects .projects-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:1.25rem}
