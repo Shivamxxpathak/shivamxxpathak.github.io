@@ -28,6 +28,16 @@ It includes:
 
 ## 🚀 Featured Projects
 
+
+### 1. BrewInsights — Indian Coffee Market Intelligence ☕
+
+A research-led analytics project combining consumer survey analysis, customer segmentation, brand-adoption and spending models, demand-series exploration, city opportunity scoring, market-entry ranking, sensitivity analysis, and a Streamlit dashboard.
+
+**Project evidence:** Gradient Boosting adoption model (reported ROC-AUC 0.7990, F1 0.8116); Linear Regression spending model (reported R² 0.6442); full-feature city clustering silhouette 0.6288. The repository documents the survey sampling and forecast limitations.
+
+**Repository:** https://github.com/Shivamxxpathak/BrewInsights-Indian-Coffee-Market-Intelligence-
+**Run the dashboard:** instructions are in the repository README; it is currently a local Streamlit app rather than a claimed hosted demo.
+
 ### 1. Customer Churn Prediction & Retention Analytics ⭐
 
 End-to-end telecom churn prediction project designed as a portfolio-quality ML workflow.
@@ -45,6 +55,7 @@ End-to-end telecom churn prediction project designed as a portfolio-quality ML w
 - Streamlit prediction application
 
 **Repository:** https://github.com/Shivamxxpathak/Customer-Churn-Prediction
+**Live application:** https://customer-churn-prediction-1nnj.onrender.com/
 
 ### 2. SuperStore Data Analytics
 
@@ -172,7 +183,7 @@ http://localhost:8000
 
 The current portfolio prioritizes **Data Analytics + Machine Learning** and highlights projects that demonstrate complete workflows rather than isolated algorithm exercises.
 
-The Customer Churn Prediction project is the primary ML showcase, while SuperStore Data Analytics demonstrates business-oriented analysis.
+BrewInsights is the distinctive market-intelligence showcase; Customer Churn Prediction demonstrates the applied ML workflow and deployment; SuperStore Data Analytics demonstrates business-oriented analysis.
 
 ## 📞 Contact
 
